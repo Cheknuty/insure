@@ -1,0 +1,142 @@
+.main {
+    position: relative;
+    margin-top: 83px;
+    overflow: hidden;
+}
+
+.main__sec1-bgi1 {
+    position: absolute;
+    z-index: 3;
+    top: -137px;
+    left: calc(50% + 300px);
+}
+
+.main__sec1-bgi2 {
+    position: absolute;
+    z-index: 3;
+    top: 414px;
+    right: calc(50% + 510px);
+}
+
+.main__sec1 {
+    background-color: $color-TELOPEA;
+}
+
+.main__sec1-container {
+    position: relative;
+    padding-top: 105px;
+    padding-bottom: 127px;
+}
+
+.main__sec1-box {
+    max-width: 540px;
+    margin-right: 570px;
+}
+
+.main__sec1-title {
+    margin-top: 63px;
+    margin-bottom: 16px;
+    font-family: 'DM Serif Display';
+    font-size: 72px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+}
+
+.main__sec1-subtitle {
+    margin-top: 0;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+}
+
+.main__sec1-img {
+    position: absolute;
+    right: 10px;
+    top: 105px;
+    z-index: 1;
+}
+
+.main__sec2 {
+    padding: 305px 0 158px 0;
+}
+
+.main__sec2-title {
+    margin-top: 63px;
+    margin-bottom: 96px;
+    font-family: 'DM Serif Display';
+    font-size: 72px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: $color-JAGUAR;
+}
+
+.main__sec2-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main__sec2-item {
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__sec2-item-box {
+    &::before {
+        content: "";
+        display: inline-block;
+        width: 86px;
+        height: 86px;
+        background-position: center;
+        background-size: contain;
+        margin-bottom: 32px;
+    }
+}
+
+.main__sec2-item:nth-child(1) .main__sec2-item-box::before {background-image: url(../../img/main/icon1.svg);}
+.main__sec2-item:nth-child(2) .main__sec2-item-box::before {background-image: url(../../img/main/icon2.svg);}
+.main__sec2-item:nth-child(3) .main__sec2-item-box::before {background-image: url(../../img/main/icon3.svg);}
+
+.main__sec2-item-title {
+    margin-top: 0;
+    margin-bottom: 32px;
+    font-family: 'DM Serif Display';
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: -0.388889px;
+    color: $color-JAGUAR;
+}
+
+.main__sec2-item-subtitle {
+    margin: 0;
+}
+
+.main__sec3 {
+    margin-bottom: 150px;
+}
+
+.main__sec3-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 69px 81px;
+    background-color: $color-TELOPEA;
+    background-image: url(../../img/main/main-bgi-sec3.svg);
+    background-repeat: no-repeat;
+    background-position-y: -220px;
+    background-position-x: calc(50% + 525px);
+}
+
+.main__sec3-title {
+    margin: 0;
+    max-width: 475px;
+    font-family: 'DM Serif Display';
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -0.777778px;
+    color: #FFFFFF;
+}
